@@ -1,0 +1,19 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "backend",
+      "runtimeExecutable": "C:\\Users\\HP\\Desktop\\citipractice\\backend\\.venv\\Scripts\\python.exe",
+      "runtimeArgs": ["-m", "uvicorn", "app.main:app", "--port", "8000", "--no-access-log", "--app-dir", "C:\\Users\\HP\\Desktop\\citipractice\\backend"],
+      "cwd": "C:\\Users\\HP\\Desktop\\citipractice\\backend",
+      "port": 8000
+    },
+    {
+      "name": "frontend",
+      "runtimeExecutable": "npm",
+      "runtimeArgs": ["run", "dev"],
+      "cwd": "C:\\Users\\HP\\Desktop\\citipractice\\frontend",
+      "port": 5173
+    }
+  ]
+}
